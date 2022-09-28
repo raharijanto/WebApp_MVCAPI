@@ -58,6 +58,7 @@ namespace API
             services.AddScoped<JobsRepository>();
             services.AddScoped<SalaryRepository>();
             services.AddScoped<EmployeesRepository>();
+            services.AddScoped<AccountRepository>();
 
             #endregion Dependency Injection
         }
